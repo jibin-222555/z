@@ -1,0 +1,323 @@
+
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+header,
+section {
+  overflow-x: hidden;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+
+
+
+.header-section { background: linear-gradient(to right, rgb(227 209 102 / 80%), rgb(39 205 52 / 80%));
+
+
+
+
+ }
+
+
+ 
+
+.home-slider h2{ font-size: 48px; line-height: normal;}
+.home-slider .btn-outline-light{font-size: 22px; line-height: normal;}
+.about-section p{ font-size: 16px; line-height: 28px;}
+.service-box h4{font-size: 24px;}
+.contact-section{background:linear-gradient(to right,rgb(163, 233, 163),rgb(12, 209, 117),rgb(169, 228, 7)) }
+.contact-box .form-control{ height:50px;}
+.contact-box textarea.form-control{ height:150px;}
+.address-box p{ font-size: 16px; line-height: 28px;}
+span{
+    background: linear-gradient(to right,#70f03d,#45b5e9);
+   -webkit-background-clip: text; 
+  color: transparent;
+  
+  }
+
+
+ .header-section .btn-outline-light {
+    color: #0078b1;
+    border-color: #f8f9fa;
+    background: white;
+}
+.header-section .btn-outline-light:hover {
+
+  background: linear-gradient(to right,#70f03d,#45b5e9);
+  color: #fff;
+}
+ 
+.carousel-item .btn:hover {
+   color: white;
+    background: linear-gradient(to top, rgb(101 239 67 / 80%), rgb(53 181 237 / 80%));
+}
+
+
+
+
+
+
+
+  .welcome h1{
+  font-size: 45px;
+}
+.welcome h2{
+  font-size: 22px;
+}
+  
+.cover {
+    width: 100%;
+    height: 55vmin;
+    background: url("");
+    background-position: -24rem -19rem;
+    background-size: 150%;
+    position: relative;
+  }
+  
+  .cover .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+  }
+  
+  .cover .content {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    padding-top: 19vmin;
+  }
+  
+  .cover .content > h1 {
+   
+    font-size: 6vmin;
+    color: whitesmoke;
+  }
+  
+  .cover .content > p {
+
+    font-size: 2vmin;
+    color: #e5e5e5;
+  }
+  
+  .numbers .rect {
+    position: relative;
+    z-index: 1;
+    background: rgb(255, 255, 255);
+    width: 17rem;
+    height: 12rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: 0.5em;
+    box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.349);
+  }
+  
+  .numbers {
+    margin-top: -15vmin;
+  }
+  
+  .numbers .rect h5 {
+    font-size: 2rem;
+    color: tomato;
+  }
+  
+  .numbers .rect > p {
+    font-family: var(--Patua);
+  }
+  .change_content:after{
+    content: '';
+    animation :changetext 10s infinite linear;
+    color: white;
+  }
+
+
+
+ .service-boxx{
+  background: linear-gradient(rgb(49, 233, 233),rgb(151, 151, 199));
+    height:390px ;
+
+  }
+
+  
+ .service-boxx{
+  background: linear-gradient(rgb(49, 233, 233),rgb(151, 151, 199));
+    height:290px ;
+
+  }
+
+  .service-boxx{
+  transition: .5s;
+  text-align: center;
+  height: 210px;
+
+background: linear-gradient(rgb(215 227 207),rgb(117 236 110));
+
+
+
+}
+
+.service-boxx .img{
+  
+  font-size: 32px;
+  line-height: 70px;
+
+}
+.service-boxx .content{
+  height: 10px;
+  transition: .5s;
+}
+.service-boxx .content h3{
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 25px;
+  margin: 0;
+  text-transform: uppercase;
+  text-decoration: brown;
+}
+.service-boxx .content p{
+  color: rgb(3, 2, 2);
+  line-height: 30px;
+padding: 2px;
+font-family:  sans-serif;
+
+}
+.service-boxx:hover{
+  background-image: linear-gradient(to bottom,rgb(96 223 129),rgb(216 228 31));
+
+}
+
+
+
+
+
+.footer {
+  background: linear-gradient(
+    to right,
+    rgb(255 88 13 / 80%),
+    rgb(243 15 15 / 80%)
+  );
+}
+
+
+  .ft {
+    background: white;
+ 
+  
+    padding:14vmin 18vmin;
+  }
+
+.footer .address-box i{
+  background: red;
+}
+
+  @keyframes changetext{
+    0%{content:"Enjoy Happiest Moments of your life";}
+     
+     50%{content:"Best Homestay in kottayam";}
+  
+     
+     100%{content:"Come  Stay and Enjoy your Day ";}
+
+  }
+
+@media(max-width:991px){
+  
+
+
+  .carousel-caption {
+    position: absolute;
+    /* right: 15%; */
+    top: 55%;
+    /* left: 15%; */
+    z-index: 10;
+    /* padding-top: 20px; */
+   
+    color: #fff;
+    text-align: center;
+}
+    #focuzSlider .carousel-caption h3 {
+      font-size: 24px;
+    
+    }
+    #focuzSlider .carousel-caption h2 {
+      font-size: 20px;
+    
+    }
+    .home-slider .btn-outline-light {
+      font-size: 15px;
+      line-height: normal;
+    }
+.welcome h1{
+  font-size: 35px;
+}
+.welcome h2{
+  font-size: 25px;
+}
+
+.w-100 {
+  width: 100%!important;
+  height: 60vh;
+  object-fit: cover;
+}
+}
+@media(max-width:767px){
+    .header-section .navbar-brand img {
+        width: 200px;
+
+    }
+
+    .carousel-caption {
+      position: absolute;
+      /* right: 15%; */
+      top: 56%;
+      /* left: 15%; */
+      z-index: 10;
+      /* padding-top: 20px; */
+     
+      color: #fff;
+      text-align: center;
+  }
+#focuzSlider .carousel-caption h3 {
+  font-size: 8px;
+
+}
+#focuzSlider .carousel-caption h2 {
+  font-size: 25px;
+
+}
+#focuzSlider .carousel-caption h4 {
+  font-size: 9px;
+
+}
+.home-slider .btn-outline-light {
+  font-size: 10px;
+  line-height: normal;
+}
+.welcome h1{
+  font-size: 25px;
+}
+.welcome h2{
+  font-size: 15px;
+}
+
+
+.w-100 {
+  width: 100%!important;
+  height: 60vh;
+  object-fit: cover;
+}
+
+
+
+}
